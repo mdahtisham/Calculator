@@ -1,0 +1,114 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  /* background-color: rgb(171, 233, 212); */
+  text-align: center;
+}
+
+/* .container { */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-direction: column; */
+  /* background-color: beige; */
+  /* height: 100vh; */
+/* } */
+
+.calcbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(128, 128, 128, 0.308);
+  height: 100vh;
+}
+.calcname{
+  border: 1px solid black;
+  border-radius: 5px 5px;
+  background-color: rgba(158, 156, 156, 0.836);
+  padding: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  box-shadow: 5px 5px 15px black
+}
+
+/* .resultbar{ */
+  /* background-color: black; */
+  /* margin: 5px 3px; */
+  /* padding: 5px 3px; */
+  /* border: none; */
+  /* margin-bottom: 5px; */
+
+/* } */
+
+.finalresultbar{
+  background-color: black;
+  text-align: end;
+  padding: 15px;
+  padding-left: 80px;
+  color: white;
+  font-size: larger;
+  /* border-radius: 8px; */
+  border: none;
+}
+
+
+
+.row1button{
+  padding: 10px 35px;
+  border: 1px solid black;
+  color: black;
+  background-color: rgb(253, 188, 66);
+}
+.row1button:hover{
+  cursor: pointer;
+  background-color: orange;
+}
+.row1buttonAC{
+  padding: 10px 35px;
+  border: 1px solid black;
+  color: black;
+  background-color: rgb(255, 47, 47);
+}
+.row1buttonAC:hover{
+  background-color: red;
+  cursor: pointer;
+}
+
+.row2button{
+  padding: 10px 37px;
+  border: 1px solid black;
+  color: black;
+}
+
+.row3button{
+  padding: 10px 37px;
+  border: 1px solid black;
+  color: black;
+}
+
+.row4button{
+  padding: 10px 36.5px;
+  border: 1px solid black;
+  color: black;
+}
+
+.row5button{
+  padding: 10px 37.5px;
+  border: 1px solid black;
+  color: black;
+}
+.row2button:hover, .row3button:hover, .row4button:hover, .row5button:hover {
+  cursor: pointer;
+  background-color: rgba(211, 208, 208, 0.842);
+}
+
+.row5buttonequal{
+  padding: 10px 77.5px;
+  border: 1px solid black;
+  color: black;
+  background-color: rgb(61, 224, 61);
+}
+.row5buttonequal:hover{
+  cursor: pointer;
+  background-color: rgb(50, 192, 50);
+}
